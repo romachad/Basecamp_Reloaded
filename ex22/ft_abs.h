@@ -6,12 +6,12 @@
 /*   By: romachad <romachad@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/22 07:27:58 by romachad          #+#    #+#             */
-/*   Updated: 2022/05/25 03:39:19 by romachad         ###   ########.fr       */
+/*   Updated: 2022/05/26 04:17:21 by romachad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef FT_ABS_H
 # define FT_ABS_H
 
-# define ABS(Value) ({int (x); if (Value < 0) x = (-Value); else x = (Value); x;})
+# define ABS(Value) ({int x; if (Value < 0) x = (-Value); else x = (Value); x;})
 
 #endif
