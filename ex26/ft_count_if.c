@@ -6,9 +6,10 @@
 /*   By: romachad <romachad@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/26 06:03:00 by romachad          #+#    #+#             */
-/*   Updated: 2022/05/26 07:02:28 by romachad         ###   ########.fr       */
+/*   Updated: 2022/05/26 07:53:20 by romachad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 int	ft_len(char *str)
 {
@@ -28,7 +29,7 @@ int	ft_count_if(char **tab, int (*f)(char*))
 	while (*tab[i] != 0)
 	{
 		if (f(tab[i]) == 1)
-			return (ft_len(tab[i]));
+			return (1);
 		i++;
 	}
 	return (0);
