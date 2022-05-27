@@ -11,4 +11,4 @@ fclean:
 	rm -f ft_display_file
 
 clean:
-	rm -f ft_display_file
+	echo "Nothing to be cleaned!"
